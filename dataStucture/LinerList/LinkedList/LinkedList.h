@@ -45,7 +45,7 @@ class List {
 template<typename T>
 List<T>::List(List<T> &L) {
   T value;
-  LinkNode<T> *srcptr = L.first();
+  LinkNode<T> *srcptr = L.first;
   LinkNode<T> *desptr = first = new LinkNode<T>;
 
   while (srcptr->link != nullptr) {

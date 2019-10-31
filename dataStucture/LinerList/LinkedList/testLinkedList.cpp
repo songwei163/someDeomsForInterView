@@ -17,4 +17,6 @@ void test01() {
     L.Insert(i, i + 1);
   }
   L.Print();
+  List<int> L1(L);
+  L.Print();
 }
