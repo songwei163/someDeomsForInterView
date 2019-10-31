@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/someDeomsForInterView.dir/main.cpp.o  -o someDeomsForInterView 
