@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/tmp.Hj9okC3qEu/dataStucture/LinerList/SeqList/testSeqList.cpp" "/tmp/tmp.Hj9okC3qEu/cmake-build-debug/dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/testSeqList.cpp.o"
+  "C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/SeqList/testSeqList.cpp" "C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/testSeqList.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
