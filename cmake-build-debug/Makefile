@@ -122,6 +122,19 @@ testSeqList/fast:
 	$(MAKE) -f dataStucture\LinerList\SeqList\CMakeFiles\testSeqList.dir\build.make dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/build
 .PHONY : testSeqList/fast
 
+#=============================================================================
+# Target rules for targets named testLinkedList
+
+# Build rule for target.
+testLinkedList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testLinkedList
+.PHONY : testLinkedList
+
+# fast build rule for target.
+testLinkedList/fast:
+	$(MAKE) -f dataStucture\LinerList\LinkedList\CMakeFiles\testLinkedList.dir\build.make dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir/build
+.PHONY : testLinkedList/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -131,6 +144,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... testSeqList
+	@echo ... testLinkedList
 .PHONY : help
 
 

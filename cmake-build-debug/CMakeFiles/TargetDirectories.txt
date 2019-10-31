@@ -7,3 +7,6 @@ C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Li
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/SeqList/CMakeFiles/edit_cache.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/SeqList/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/LinkedList/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/LinkedList/CMakeFiles/rebuild_cache.dir

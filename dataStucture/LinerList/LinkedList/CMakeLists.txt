@@ -1,0 +1,1 @@
+add_executable(testLinkedList testLinkedList.cpp LinkedList.h)
