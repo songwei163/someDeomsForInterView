@@ -139,7 +139,7 @@ dataStucture/LinerList/SeqList/preinstall:
 dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\SeqList\CMakeFiles\testSeqList.dir\build.make dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\SeqList\CMakeFiles\testSeqList.dir\build.make dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target testSeqList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target testSeqList"
 .PHONY : dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -229,7 +229,7 @@ dataStucture/LinerList/StaticList/preinstall:
 dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\StaticList\CMakeFiles\testStaticList.dir\build.make dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\StaticList\CMakeFiles\testStaticList.dir\build.make dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target testStaticList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target testStaticList"
 .PHONY : dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,16 +299,19 @@ dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir/clean:
 
 # Recursive "all" directory target.
 dataStucture/Stack/all: dataStucture/Stack/SeqStack/all
+dataStucture/Stack/all: dataStucture/Stack/LinkedStack/all
 
 .PHONY : dataStucture/Stack/all
 
 # Recursive "clean" directory target.
 dataStucture/Stack/clean: dataStucture/Stack/SeqStack/clean
+dataStucture/Stack/clean: dataStucture/Stack/LinkedStack/clean
 
 .PHONY : dataStucture/Stack/clean
 
 # Recursive "preinstall" directory target.
 dataStucture/Stack/preinstall: dataStucture/Stack/SeqStack/preinstall
+dataStucture/Stack/preinstall: dataStucture/Stack/LinkedStack/preinstall
 
 .PHONY : dataStucture/Stack/preinstall
 
@@ -337,7 +340,7 @@ dataStucture/Stack/SeqStack/preinstall:
 dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/all:
 	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/depend
 	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target testSeqStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target testSeqStack"
 .PHONY : dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -356,6 +359,51 @@ testSeqStack: dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/rule
 dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/clean:
 	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/clean
 .PHONY : dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/clean
+
+#=============================================================================
+# Directory level rules for directory dataStucture/Stack/LinkedStack
+
+# Recursive "all" directory target.
+dataStucture/Stack/LinkedStack/all: dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/all
+
+.PHONY : dataStucture/Stack/LinkedStack/all
+
+# Recursive "clean" directory target.
+dataStucture/Stack/LinkedStack/clean: dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/clean
+
+.PHONY : dataStucture/Stack/LinkedStack/clean
+
+# Recursive "preinstall" directory target.
+dataStucture/Stack/LinkedStack/preinstall:
+
+.PHONY : dataStucture/Stack/LinkedStack/preinstall
+
+#=============================================================================
+# Target rules for target dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir
+
+# All Build rule for target.
+dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/all:
+	$(MAKE) -f dataStucture\Stack\LinkedStack\CMakeFiles\testLinkedStack.dir\build.make dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/depend
+	$(MAKE) -f dataStucture\Stack\LinkedStack\CMakeFiles\testLinkedStack.dir\build.make dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target testLinkedStack"
+.PHONY : dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/all
+
+# Build rule for subdir invocation for target.
+dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 0
+.PHONY : dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/rule
+
+# Convenience name for target.
+testLinkedStack: dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/rule
+
+.PHONY : testLinkedStack
+
+# clean rule for target.
+dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/clean:
+	$(MAKE) -f dataStucture\Stack\LinkedStack\CMakeFiles\testLinkedStack.dir\build.make dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/clean
+.PHONY : dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

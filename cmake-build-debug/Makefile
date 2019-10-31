@@ -174,6 +174,19 @@ testSeqStack/fast:
 	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/build
 .PHONY : testSeqStack/fast
 
+#=============================================================================
+# Target rules for targets named testLinkedStack
+
+# Build rule for target.
+testLinkedStack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testLinkedStack
+.PHONY : testLinkedStack
+
+# fast build rule for target.
+testLinkedStack/fast:
+	$(MAKE) -f dataStucture\Stack\LinkedStack\CMakeFiles\testLinkedStack.dir\build.make dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/build
+.PHONY : testLinkedStack/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -187,6 +200,7 @@ help:
 	@echo ... testStaticList
 	@echo ... testCircList
 	@echo ... testSeqStack
+	@echo ... testLinkedStack
 .PHONY : help
 
 

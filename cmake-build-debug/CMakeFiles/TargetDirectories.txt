@@ -21,3 +21,6 @@ C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/St
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/CMakeFiles/edit_cache.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/CMakeFiles/rebuild_cache.dir

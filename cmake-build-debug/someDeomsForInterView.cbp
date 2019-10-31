@@ -5,7 +5,7 @@
 		<Option title="someDeomsForInterView"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\dataStucture\;CMake Files\dataStucture\LinerList\;CMake Files\dataStucture\LinerList\SeqList\;CMake Files\dataStucture\LinerList\LinkedList\;CMake Files\dataStucture\LinerList\StaticList\;CMake Files\dataStucture\LinerList\CircList\;CMake Files\dataStucture\Stack\;CMake Files\dataStucture\Stack\SeqStack\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dataStucture\;CMake Files\dataStucture\LinerList\;CMake Files\dataStucture\LinerList\SeqList\;CMake Files\dataStucture\LinerList\LinkedList\;CMake Files\dataStucture\LinerList\StaticList\;CMake Files\dataStucture\LinerList\CircList\;CMake Files\dataStucture\Stack\;CMake Files\dataStucture\Stack\SeqStack\;CMake Files\dataStucture\Stack\LinkedStack\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug"/>
@@ -247,6 +247,48 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="testLinkedStack">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/testLinkedStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/Makefile&quot;  VERBOSE=1 testLinkedStack"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testLinkedStack/fast">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/testLinkedStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/Makefile&quot;  VERBOSE=1 testLinkedStack/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/LinkedStack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/CircList/CircList.h">
 			<Option target="testCircList"/>
@@ -271,6 +313,12 @@
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/StaticList/testStaticList.cpp">
 			<Option target="testStaticList"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/LinkedStack/LinkedStack.h">
+			<Option target="testLinkedStack"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/LinkedStack/testLinkedStack.cpp">
+			<Option target="testLinkedStack"/>
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/SeqStack/SeqStack.h">
 			<Option target="testSeqStack"/>
@@ -304,6 +352,9 @@
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/SeqStack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\dataStucture\Stack\SeqStack\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/LinkedStack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataStucture\Stack\LinkedStack\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

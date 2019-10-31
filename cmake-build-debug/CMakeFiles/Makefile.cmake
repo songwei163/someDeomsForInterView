@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../dataStucture/LinerList/SeqList/CMakeLists.txt"
   "../dataStucture/LinerList/StaticList/CMakeLists.txt"
   "../dataStucture/Stack/CMakeLists.txt"
+  "../dataStucture/Stack/LinkedStack/CMakeLists.txt"
   "../dataStucture/Stack/SeqStack/CMakeLists.txt"
   )
 
@@ -65,6 +66,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dataStucture/LinerList/CircList/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/Stack/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/Stack/SeqStack/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Stack/LinkedStack/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -74,4 +76,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/DependInfo.cmake"
   "dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir/DependInfo.cmake"
   "dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/DependInfo.cmake"
+  "dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/DependInfo.cmake"
   )
