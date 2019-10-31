@@ -37,6 +37,7 @@ class List {
   void makeEmpty();
   LinkNode<T> *Locate(int i) const;
   bool Insert(int i, T e);
+  bool Remove(int i, T &e);
   void Print() const;
  private:
   LinkNode<T> *first;
@@ -103,4 +104,14 @@ void List<T>::Print() const {
   cout << endl;
 }
 
+template<typename T>
+bool List<T>::Remove(int i, T &x) {
+  LinkNode<T> *current = Locate(i - 1);
+  if (!current || !current->link) return false;
+  LinkNode<T> *del = current->link;
+  current->link = del->link;
+  x = del->data;
+  delete del;
+  return true;
+}
 #endif //SOMEDEOMSFORINTERVIEW_DATASTUCTURE_LINERLIST_LINKEDLIST_LINKEDLIST_H_
