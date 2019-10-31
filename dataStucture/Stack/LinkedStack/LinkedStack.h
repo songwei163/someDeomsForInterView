@@ -30,6 +30,7 @@ class LinkedStack {
  private:
   StackNode<T> *top;
 };
+
 template<typename T>
 void LinkedStack<T>::makeEmpty() {
   StackNode<T> *ptr;
@@ -39,6 +40,7 @@ void LinkedStack<T>::makeEmpty() {
     delete ptr;
   }
 }
+
 template<typename T>
 bool LinkedStack<T>::Pop(T &e) {
   if (IsEmpty()) {
@@ -51,6 +53,7 @@ bool LinkedStack<T>::Pop(T &e) {
     return true;
   }
 }
+
 template<typename T>
 bool LinkedStack<T>::getTop(T &e) const {
   if (IsEmpty()) {
@@ -60,11 +63,13 @@ bool LinkedStack<T>::getTop(T &e) const {
     return true;
   }
 }
+
 template<typename T>
 void LinkedStack<T>::Push(const T &e) {
   top = new StackNode<T>(e, top);
   assert(top);
 }
+
 template<typename T>
 int LinkedStack<T>::getSize() {
   StackNode<T> *p = top;
