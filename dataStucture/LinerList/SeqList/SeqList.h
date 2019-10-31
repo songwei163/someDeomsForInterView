@@ -16,7 +16,7 @@ template<typename T>
 class SeqList {
  public:
   SeqList(int sz = defaultSize);
-  SeqList(SeqList<T> &L);
+  SeqList(const SeqList<T> &L);
   ~SeqList() { delete[]data; }
  public:
   bool Insert(int i, T e);
@@ -46,11 +46,6 @@ SeqList<T>::SeqList(int sz) {
     data = new T[maxSize];
     last = -1;
   }
-}
-
-template<typename T>
-SeqList<T>::SeqList(SeqList<T> &L) {
-
 }
 
 template<typename T>
@@ -112,9 +107,13 @@ template<typename T>
 int SeqList<T>::Locate(int i) const {
   if (i >= 1 && i <= last + 1) {
     return i;
-  } else{
+  } else {
     return 0;
   }
+}
+template<typename T>
+SeqList<T>::SeqList(const SeqList<T> &L) {
+
 }
 
 #endif //SOMEDEOMSFORINTERVIEW_DATASTUCTURE_LINERLIST_SEQLIST_SEQLIST_H_

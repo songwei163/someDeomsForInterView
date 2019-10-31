@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6817.32\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.7142.39\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6817.32\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.7142.39\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-de
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6817.32\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.7142.39\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6817.32\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.7142.39\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -135,6 +135,45 @@ testLinkedList/fast:
 	$(MAKE) -f dataStucture\LinerList\LinkedList\CMakeFiles\testLinkedList.dir\build.make dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir/build
 .PHONY : testLinkedList/fast
 
+#=============================================================================
+# Target rules for targets named testStaticList
+
+# Build rule for target.
+testStaticList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testStaticList
+.PHONY : testStaticList
+
+# fast build rule for target.
+testStaticList/fast:
+	$(MAKE) -f dataStucture\LinerList\StaticList\CMakeFiles\testStaticList.dir\build.make dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/build
+.PHONY : testStaticList/fast
+
+#=============================================================================
+# Target rules for targets named testCircList
+
+# Build rule for target.
+testCircList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testCircList
+.PHONY : testCircList
+
+# fast build rule for target.
+testCircList/fast:
+	$(MAKE) -f dataStucture\LinerList\CircList\CMakeFiles\testCircList.dir\build.make dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir/build
+.PHONY : testCircList/fast
+
+#=============================================================================
+# Target rules for targets named testSeqStack
+
+# Build rule for target.
+testSeqStack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testSeqStack
+.PHONY : testSeqStack
+
+# fast build rule for target.
+testSeqStack/fast:
+	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/build
+.PHONY : testSeqStack/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -145,6 +184,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... testSeqList
 	@echo ... testLinkedList
+	@echo ... testStaticList
+	@echo ... testCircList
+	@echo ... testSeqStack
 .PHONY : help
 
 

@@ -10,3 +10,14 @@ C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Li
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/LinkedList/CMakeFiles/edit_cache.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/LinkedList/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+add_executable(testStaticList testStaticList.cpp StaticList.h)

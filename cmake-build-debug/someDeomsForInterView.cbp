@@ -5,7 +5,7 @@
 		<Option title="someDeomsForInterView"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\dataStucture\;CMake Files\dataStucture\LinerList\;CMake Files\dataStucture\LinerList\SeqList\;CMake Files\dataStucture\LinerList\LinkedList\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dataStucture\;CMake Files\dataStucture\LinerList\;CMake Files\dataStucture\LinerList\SeqList\;CMake Files\dataStucture\LinerList\LinkedList\;CMake Files\dataStucture\LinerList\StaticList\;CMake Files\dataStucture\LinerList\CircList\;CMake Files\dataStucture\Stack\;CMake Files\dataStucture\Stack\SeqStack\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug"/>
@@ -121,7 +121,139 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="testStaticList">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/testStaticList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/Makefile&quot;  VERBOSE=1 testStaticList"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testStaticList/fast">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/testStaticList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/Makefile&quot;  VERBOSE=1 testStaticList/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/StaticList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCircList">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/testCircList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/Makefile&quot;  VERBOSE=1 testCircList"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCircList/fast">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/testCircList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/Makefile&quot;  VERBOSE=1 testCircList/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/LinerList/CircList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSeqStack">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/testSeqStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 testSeqStack"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSeqStack/fast">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/testSeqStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 testSeqStack/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Stack/SeqStack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/CircList/CircList.h">
+			<Option target="testCircList"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/CircList/testCircList.cpp">
+			<Option target="testCircList"/>
+		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/LinkedList/LinkedList.h">
 			<Option target="testLinkedList"/>
 		</Unit>
@@ -133,6 +265,18 @@
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/SeqList/testSeqList.cpp">
 			<Option target="testSeqList"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/StaticList/StaticList.h">
+			<Option target="testStaticList"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/StaticList/testStaticList.cpp">
+			<Option target="testStaticList"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/SeqStack/SeqStack.h">
+			<Option target="testSeqStack"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/SeqStack/testSeqStack.cpp">
+			<Option target="testSeqStack"/>
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -148,6 +292,18 @@
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/LinkedList/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\dataStucture\LinerList\LinkedList\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/StaticList/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataStucture\LinerList\StaticList\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/CircList/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataStucture\LinerList\CircList\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataStucture\Stack\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/SeqStack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataStucture\Stack\SeqStack\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
