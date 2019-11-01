@@ -162,6 +162,19 @@ testCircList/fast:
 .PHONY : testCircList/fast
 
 #=============================================================================
+# Target rules for targets named testDblList
+
+# Build rule for target.
+testDblList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testDblList
+.PHONY : testDblList
+
+# fast build rule for target.
+testDblList/fast:
+	$(MAKE) -f dataStucture\LinerList\DblList\CMakeFiles\testDblList.dir\build.make dataStucture/LinerList/DblList/CMakeFiles/testDblList.dir/build
+.PHONY : testDblList/fast
+
+#=============================================================================
 # Target rules for targets named testSeqStack
 
 # Build rule for target.
@@ -187,6 +200,45 @@ testLinkedStack/fast:
 	$(MAKE) -f dataStucture\Stack\LinkedStack\CMakeFiles\testLinkedStack.dir\build.make dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/build
 .PHONY : testLinkedStack/fast
 
+#=============================================================================
+# Target rules for targets named testSeqQueue
+
+# Build rule for target.
+testSeqQueue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testSeqQueue
+.PHONY : testSeqQueue
+
+# fast build rule for target.
+testSeqQueue/fast:
+	$(MAKE) -f dataStucture\Queue\SeqQueue\CMakeFiles\testSeqQueue.dir\build.make dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/build
+.PHONY : testSeqQueue/fast
+
+#=============================================================================
+# Target rules for targets named testBinaryTree
+
+# Build rule for target.
+testBinaryTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testBinaryTree
+.PHONY : testBinaryTree
+
+# fast build rule for target.
+testBinaryTree/fast:
+	$(MAKE) -f dataStucture\Tree\BinaryTree\CMakeFiles\testBinaryTree.dir\build.make dataStucture/Tree/BinaryTree/CMakeFiles/testBinaryTree.dir/build
+.PHONY : testBinaryTree/fast
+
+#=============================================================================
+# Target rules for targets named testBitSet
+
+# Build rule for target.
+testBitSet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testBitSet
+.PHONY : testBitSet
+
+# fast build rule for target.
+testBitSet/fast:
+	$(MAKE) -f dataStucture\Set\BitSet\CMakeFiles\testBitSet.dir\build.make dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/build
+.PHONY : testBitSet/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -199,8 +251,12 @@ help:
 	@echo ... testLinkedList
 	@echo ... testStaticList
 	@echo ... testCircList
+	@echo ... testDblList
 	@echo ... testSeqStack
 	@echo ... testLinkedStack
+	@echo ... testSeqQueue
+	@echo ... testBinaryTree
+	@echo ... testBitSet
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+add_executable(testSeqQueue testSeqQueue.cpp SeqQueue.h)

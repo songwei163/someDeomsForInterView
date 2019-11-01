@@ -41,12 +41,19 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../dataStucture/CMakeLists.txt"
   "../dataStucture/LinerList/CMakeLists.txt"
   "../dataStucture/LinerList/CircList/CMakeLists.txt"
+  "../dataStucture/LinerList/DblList/CMakeLists.txt"
   "../dataStucture/LinerList/LinkedList/CMakeLists.txt"
   "../dataStucture/LinerList/SeqList/CMakeLists.txt"
   "../dataStucture/LinerList/StaticList/CMakeLists.txt"
+  "../dataStucture/Queue/CMakeLists.txt"
+  "../dataStucture/Queue/SeqQueue/CMakeLists.txt"
+  "../dataStucture/Set/BitSet/CMakeLists.txt"
+  "../dataStucture/Set/CMakeLists.txt"
   "../dataStucture/Stack/CMakeLists.txt"
   "../dataStucture/Stack/LinkedStack/CMakeLists.txt"
   "../dataStucture/Stack/SeqStack/CMakeLists.txt"
+  "../dataStucture/Tree/BinaryTree/CMakeLists.txt"
+  "../dataStucture/Tree/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -64,9 +71,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dataStucture/LinerList/LinkedList/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/LinerList/StaticList/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/LinerList/CircList/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/LinerList/DblList/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/Stack/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/Stack/SeqStack/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/Stack/LinkedStack/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Queue/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Queue/SeqQueue/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Tree/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Tree/BinaryTree/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Set/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Set/BitSet/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -75,6 +89,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir/DependInfo.cmake"
   "dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/DependInfo.cmake"
   "dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir/DependInfo.cmake"
+  "dataStucture/LinerList/DblList/CMakeFiles/testDblList.dir/DependInfo.cmake"
   "dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/DependInfo.cmake"
   "dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/DependInfo.cmake"
+  "dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/DependInfo.cmake"
+  "dataStucture/Tree/BinaryTree/CMakeFiles/testBinaryTree.dir/DependInfo.cmake"
+  "dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/DependInfo.cmake"
   )
