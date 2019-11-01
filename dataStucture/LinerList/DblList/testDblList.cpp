@@ -27,7 +27,7 @@ void test01() {
   L.Print();
   L.Print(0);
   int e;
-  L.Remove(1, e, 1);
+  L.Remove(1, e, 0);
 
   L.Print();
 

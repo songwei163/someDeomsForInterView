@@ -118,12 +118,11 @@ bool DblList<T>::Insert(int i, const T &e, int d) {
   return true;
 }
 
-
 // 0 是 first
 template<typename T>
 bool DblList<T>::Remove(int i, T &e, int d) {
   DblNode<T> *ptr = Locate(i, d);
-  if (ptr == nullptr) {
+  if (ptr == nullptr || ptr == first) {
     return false;
   } else {
     ptr->rLink->lLink = ptr->lLink;
