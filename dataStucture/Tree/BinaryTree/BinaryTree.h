@@ -62,11 +62,6 @@ class BinaryTree {
 };
 
 template<typename T>
-BinaryTree<T>::BinaryTree(const BinaryTree<T> &s) {
-
-}
-
-template<typename T>
 BinTreeNode<T> *BinaryTree<T>::Parent(const BinTreeNode<T> *current) const {
   return {
       (root == nullptr || root == current)
