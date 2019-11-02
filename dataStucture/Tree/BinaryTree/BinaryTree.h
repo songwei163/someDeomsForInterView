@@ -9,6 +9,7 @@
 #include <string>
 #include <cassert>
 #include <queue>
+#include <stack>
 
 using namespace std;
 
@@ -280,12 +281,41 @@ void BinaryTree<T>::PostOrder1(void (*visit)(const BinTreeNode<T> *)) const {
 
 template<typename T>
 void BinaryTree<T>::InOrder1(void (*visit)(const BinTreeNode<T> *)) const {
+  stack<BinTreeNode<T> *> S;
+  BinTreeNode<T> *ptr = root;
 
+  do {
+    while (ptr != nullptr) {
+      S.push(ptr);
+      ptr = ptr->leftChild;
+    }
+    if (!S.empty()) {
+      ptr = S.top();
+      S.pop();
+      visit(ptr);
+      ptr = ptr->rightChild;
+    }
+  } while (ptr != nullptr || !S.empty());
 }
 
 template<typename T>
 void BinaryTree<T>::PreOrder1(void (*visit)(const BinTreeNode<T> *)) const {
+  stack<BinTreeNode<T> *> S;
+  BinTreeNode<T> *ptr = root;
 
+  S.push(nullptr);
+  while (ptr != nullptr) {
+    visit(ptr);
+    if (ptr->rightChild != nullptr) {
+      S.push(ptr->rightChild);
+    }
+    if (ptr->leftChild != nullptr) {
+      ptr = ptr->leftChild;
+    } else {
+      ptr = S.top();
+      S.pop();
+    }
+  }
 }
 
 template<typename T>
