@@ -75,6 +75,7 @@ dataStucture/all: dataStucture/Stack/all
 dataStucture/all: dataStucture/Queue/all
 dataStucture/all: dataStucture/Tree/all
 dataStucture/all: dataStucture/Set/all
+dataStucture/all: dataStucture/Sort/all
 
 .PHONY : dataStucture/all
 
@@ -84,6 +85,7 @@ dataStucture/clean: dataStucture/Stack/clean
 dataStucture/clean: dataStucture/Queue/clean
 dataStucture/clean: dataStucture/Tree/clean
 dataStucture/clean: dataStucture/Set/clean
+dataStucture/clean: dataStucture/Sort/clean
 
 .PHONY : dataStucture/clean
 
@@ -93,6 +95,7 @@ dataStucture/preinstall: dataStucture/Stack/preinstall
 dataStucture/preinstall: dataStucture/Queue/preinstall
 dataStucture/preinstall: dataStucture/Tree/preinstall
 dataStucture/preinstall: dataStucture/Set/preinstall
+dataStucture/preinstall: dataStucture/Sort/preinstall
 
 .PHONY : dataStucture/preinstall
 
@@ -151,7 +154,7 @@ dataStucture/LinerList/SeqList/preinstall:
 dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\SeqList\CMakeFiles\testSeqList.dir\build.make dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\SeqList\CMakeFiles\testSeqList.dir\build.make dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target testSeqList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target testSeqList"
 .PHONY : dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -241,7 +244,7 @@ dataStucture/LinerList/StaticList/preinstall:
 dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\StaticList\CMakeFiles\testStaticList.dir\build.make dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\StaticList\CMakeFiles\testStaticList.dir\build.make dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target testStaticList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target testStaticList"
 .PHONY : dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -397,7 +400,7 @@ dataStucture/Stack/SeqStack/preinstall:
 dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/all:
 	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/depend
 	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target testSeqStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target testSeqStack"
 .PHONY : dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -505,7 +508,7 @@ dataStucture/Queue/SeqQueue/preinstall:
 dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/all:
 	$(MAKE) -f dataStucture\Queue\SeqQueue\CMakeFiles\testSeqQueue.dir\build.make dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/depend
 	$(MAKE) -f dataStucture\Queue\SeqQueue\CMakeFiles\testSeqQueue.dir\build.make dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target testSeqQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target testSeqQueue"
 .PHONY : dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -650,6 +653,117 @@ testBitSet: dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/rule
 dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/clean:
 	$(MAKE) -f dataStucture\Set\BitSet\CMakeFiles\testBitSet.dir\build.make dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/clean
 .PHONY : dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/clean
+
+#=============================================================================
+# Directory level rules for directory dataStucture/Sort
+
+# Recursive "all" directory target.
+dataStucture/Sort/all: dataStucture/Sort/dataList/all
+dataStucture/Sort/all: dataStucture/Sort/MySort/all
+
+.PHONY : dataStucture/Sort/all
+
+# Recursive "clean" directory target.
+dataStucture/Sort/clean: dataStucture/Sort/dataList/clean
+dataStucture/Sort/clean: dataStucture/Sort/MySort/clean
+
+.PHONY : dataStucture/Sort/clean
+
+# Recursive "preinstall" directory target.
+dataStucture/Sort/preinstall: dataStucture/Sort/dataList/preinstall
+dataStucture/Sort/preinstall: dataStucture/Sort/MySort/preinstall
+
+.PHONY : dataStucture/Sort/preinstall
+
+#=============================================================================
+# Directory level rules for directory dataStucture/Sort/dataList
+
+# Recursive "all" directory target.
+dataStucture/Sort/dataList/all: dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/all
+
+.PHONY : dataStucture/Sort/dataList/all
+
+# Recursive "clean" directory target.
+dataStucture/Sort/dataList/clean: dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/clean
+
+.PHONY : dataStucture/Sort/dataList/clean
+
+# Recursive "preinstall" directory target.
+dataStucture/Sort/dataList/preinstall:
+
+.PHONY : dataStucture/Sort/dataList/preinstall
+
+#=============================================================================
+# Target rules for target dataStucture/Sort/dataList/CMakeFiles/testdataList.dir
+
+# All Build rule for target.
+dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/all:
+	$(MAKE) -f dataStucture\Sort\dataList\CMakeFiles\testdataList.dir\build.make dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/depend
+	$(MAKE) -f dataStucture\Sort\dataList\CMakeFiles\testdataList.dir\build.make dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target testdataList"
+.PHONY : dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/all
+
+# Build rule for subdir invocation for target.
+dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 0
+.PHONY : dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/rule
+
+# Convenience name for target.
+testdataList: dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/rule
+
+.PHONY : testdataList
+
+# clean rule for target.
+dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/clean:
+	$(MAKE) -f dataStucture\Sort\dataList\CMakeFiles\testdataList.dir\build.make dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/clean
+.PHONY : dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/clean
+
+#=============================================================================
+# Directory level rules for directory dataStucture/Sort/MySort
+
+# Recursive "all" directory target.
+dataStucture/Sort/MySort/all: dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/all
+
+.PHONY : dataStucture/Sort/MySort/all
+
+# Recursive "clean" directory target.
+dataStucture/Sort/MySort/clean: dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/clean
+
+.PHONY : dataStucture/Sort/MySort/clean
+
+# Recursive "preinstall" directory target.
+dataStucture/Sort/MySort/preinstall:
+
+.PHONY : dataStucture/Sort/MySort/preinstall
+
+#=============================================================================
+# Target rules for target dataStucture/Sort/MySort/CMakeFiles/testMySort.dir
+
+# All Build rule for target.
+dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/all:
+	$(MAKE) -f dataStucture\Sort\MySort\CMakeFiles\testMySort.dir\build.make dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/depend
+	$(MAKE) -f dataStucture\Sort\MySort\CMakeFiles\testMySort.dir\build.make dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target testMySort"
+.PHONY : dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/all
+
+# Build rule for subdir invocation for target.
+dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 0
+.PHONY : dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/rule
+
+# Convenience name for target.
+testMySort: dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/rule
+
+.PHONY : testMySort
+
+# clean rule for target.
+dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/clean:
+	$(MAKE) -f dataStucture\Sort\MySort\CMakeFiles\testMySort.dir\build.make dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/clean
+.PHONY : dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

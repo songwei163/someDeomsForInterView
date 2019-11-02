@@ -42,3 +42,11 @@ C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Se
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Set/BitSet/CMakeFiles/edit_cache.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Set/BitSet/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/CMakeFiles/testdataList.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/CMakeFiles/testMySort.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/CMakeFiles/rebuild_cache.dir

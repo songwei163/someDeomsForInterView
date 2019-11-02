@@ -39,6 +39,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Queue/cmake_install.cmake")
   include("C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Tree/cmake_install.cmake")
   include("C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Set/cmake_install.cmake")
+  include("C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/cmake_install.cmake")
 
 endif()
 

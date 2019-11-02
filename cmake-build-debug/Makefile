@@ -239,6 +239,32 @@ testBitSet/fast:
 	$(MAKE) -f dataStucture\Set\BitSet\CMakeFiles\testBitSet.dir\build.make dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/build
 .PHONY : testBitSet/fast
 
+#=============================================================================
+# Target rules for targets named testdataList
+
+# Build rule for target.
+testdataList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testdataList
+.PHONY : testdataList
+
+# fast build rule for target.
+testdataList/fast:
+	$(MAKE) -f dataStucture\Sort\dataList\CMakeFiles\testdataList.dir\build.make dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/build
+.PHONY : testdataList/fast
+
+#=============================================================================
+# Target rules for targets named testMySort
+
+# Build rule for target.
+testMySort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testMySort
+.PHONY : testMySort
+
+# fast build rule for target.
+testMySort/fast:
+	$(MAKE) -f dataStucture\Sort\MySort\CMakeFiles\testMySort.dir\build.make dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/build
+.PHONY : testMySort/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -257,6 +283,8 @@ help:
 	@echo ... testSeqQueue
 	@echo ... testBinaryTree
 	@echo ... testBitSet
+	@echo ... testdataList
+	@echo ... testMySort
 .PHONY : help
 
 

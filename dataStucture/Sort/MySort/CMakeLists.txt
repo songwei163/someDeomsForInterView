@@ -1,0 +1,1 @@
+add_executable(testMySort testMySort.cpp MySort.h)

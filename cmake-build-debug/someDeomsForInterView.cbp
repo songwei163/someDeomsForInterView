@@ -5,7 +5,7 @@
 		<Option title="someDeomsForInterView"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\dataStucture\;CMake Files\dataStucture\LinerList\;CMake Files\dataStucture\LinerList\SeqList\;CMake Files\dataStucture\LinerList\LinkedList\;CMake Files\dataStucture\LinerList\StaticList\;CMake Files\dataStucture\LinerList\CircList\;CMake Files\dataStucture\LinerList\DblList\;CMake Files\dataStucture\Stack\;CMake Files\dataStucture\Stack\SeqStack\;CMake Files\dataStucture\Stack\LinkedStack\;CMake Files\dataStucture\Queue\;CMake Files\dataStucture\Queue\SeqQueue\;CMake Files\dataStucture\Tree\;CMake Files\dataStucture\Tree\BinaryTree\;CMake Files\dataStucture\Set\;CMake Files\dataStucture\Set\BitSet\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dataStucture\;CMake Files\dataStucture\LinerList\;CMake Files\dataStucture\LinerList\SeqList\;CMake Files\dataStucture\LinerList\LinkedList\;CMake Files\dataStucture\LinerList\StaticList\;CMake Files\dataStucture\LinerList\CircList\;CMake Files\dataStucture\LinerList\DblList\;CMake Files\dataStucture\Stack\;CMake Files\dataStucture\Stack\SeqStack\;CMake Files\dataStucture\Stack\LinkedStack\;CMake Files\dataStucture\Queue\;CMake Files\dataStucture\Queue\SeqQueue\;CMake Files\dataStucture\Tree\;CMake Files\dataStucture\Tree\BinaryTree\;CMake Files\dataStucture\Set\;CMake Files\dataStucture\Set\BitSet\;CMake Files\dataStucture\Sort\;CMake Files\dataStucture\Sort\dataList\;CMake Files\dataStucture\Sort\MySort\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug"/>
@@ -457,6 +457,90 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Set/BitSet/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="testdataList">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/testdataList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/Makefile&quot;  VERBOSE=1 testdataList"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testdataList/fast">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/testdataList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/Makefile&quot;  VERBOSE=1 testdataList/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/dataList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testMySort">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/testMySort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/Makefile&quot;  VERBOSE=1 testMySort"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testMySort/fast">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/testMySort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/Makefile&quot;  VERBOSE=1 testMySort/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/dataStucture/Sort/MySort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/LinerList/CircList/CircList.h">
 			<Option target="testCircList"/>
@@ -499,6 +583,18 @@
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Set/BitSet/testBitSet.cpp">
 			<Option target="testBitSet"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Sort/MySort/MySort.h">
+			<Option target="testMySort"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Sort/MySort/testMySort.cpp">
+			<Option target="testMySort"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Sort/dataList/dataList.h">
+			<Option target="testdataList"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Sort/dataList/testdataList.cpp">
+			<Option target="testdataList"/>
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Stack/LinkedStack/LinkedStack.h">
 			<Option target="testLinkedStack"/>
@@ -568,6 +664,15 @@
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Set/BitSet/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\dataStucture\Set\BitSet\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataStucture\Sort\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Sort/dataList/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataStucture\Sort\dataList\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/dataStucture/Sort/MySort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataStucture\Sort\MySort\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

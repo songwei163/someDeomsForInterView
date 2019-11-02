@@ -49,6 +49,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../dataStucture/Queue/SeqQueue/CMakeLists.txt"
   "../dataStucture/Set/BitSet/CMakeLists.txt"
   "../dataStucture/Set/CMakeLists.txt"
+  "../dataStucture/Sort/CMakeLists.txt"
+  "../dataStucture/Sort/MySort/CMakeLists.txt"
+  "../dataStucture/Sort/dataList/CMakeLists.txt"
   "../dataStucture/Stack/CMakeLists.txt"
   "../dataStucture/Stack/LinkedStack/CMakeLists.txt"
   "../dataStucture/Stack/SeqStack/CMakeLists.txt"
@@ -81,6 +84,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dataStucture/Tree/BinaryTree/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/Set/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataStucture/Set/BitSet/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Sort/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Sort/dataList/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dataStucture/Sort/MySort/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -95,4 +101,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/DependInfo.cmake"
   "dataStucture/Tree/BinaryTree/CMakeFiles/testBinaryTree.dir/DependInfo.cmake"
   "dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/DependInfo.cmake"
+  "dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/DependInfo.cmake"
+  "dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/DependInfo.cmake"
   )
