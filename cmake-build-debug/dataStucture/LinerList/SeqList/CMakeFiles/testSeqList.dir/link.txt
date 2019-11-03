@@ -1,3 +1,1 @@
-C:\Users\S\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.7142.39\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\testSeqList.dir/objects.a
-C:\mingw64\bin\ar.exe cr CMakeFiles\testSeqList.dir/objects.a @CMakeFiles\testSeqList.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\testSeqList.dir/objects.a -Wl,--no-whole-archive  -o testSeqList.exe -Wl,--out-implib,libtestSeqList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\testSeqList.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/testSeqList.dir/testSeqList.cpp.o  -o testSeqList 

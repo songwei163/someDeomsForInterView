@@ -62,4 +62,36 @@ void BubbleSort(dataList<E, K> &L, int left, int right) {
   }
 }
 
+template<typename E, typename K>
+void SelectSort(dataList<E, K> &L, int left, int right) {
+  for (int i = left; i < right; ++i) {
+    int k = i;
+    for (int j = i + 1; j <= right; ++j) {
+      if (L[j] < L[k]) {
+        k = j;
+      }
+      if (k != i) {
+        L.Swap(i, k);
+      }
+    }
+  }
+}
+
+template<typename E, typename K>
+void InsertSort(dataList<E, K> &L, int left, int right) {
+  E temp;
+  int i, j;
+
+  for (i = left + 1; i <= right; ++i) {
+    if (L[i] < L[i - 1]) {
+      temp = L[i];
+      j = i - 1;
+      do {
+        L[j + 1] = L[j];
+        --j;
+      } while (j >= left && temp < L[j]);
+    }
+  }
+}
+
 #endif //SOMEDEOMSFORINTERVIEW_DATASTUCTURE_SORT_MYSORT_MYSORT_H_

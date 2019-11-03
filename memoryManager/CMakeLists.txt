@@ -1,0 +1,2 @@
+ADD_SUBDIRECTORY(smartPtr)
+ADD_SUBDIRECTORY(memoryPool)

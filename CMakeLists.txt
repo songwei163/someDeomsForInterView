@@ -4,4 +4,6 @@ project(someDeomsForInterView)
 set(CMAKE_CXX_STANDARD 11)
 
 ADD_SUBDIRECTORY(dataStucture)
+ADD_SUBDIRECTORY(Sort_)
+ADD_SUBDIRECTORY(memoryManager)
 
