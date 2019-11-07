@@ -1,18 +1,4 @@
-CMake executable not found: /usr/bin/cmake Configure
-
-Cannot get compiler information:
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
-	Unable to create temporary file
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\S\CLionProjects\someDeomsForInterView
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug
