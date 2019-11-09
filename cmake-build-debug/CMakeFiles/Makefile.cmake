@@ -61,6 +61,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../memoryManager/CMakeLists.txt"
   "../memoryManager/memoryPool/CMakeLists.txt"
   "../memoryManager/smartPtr/CMakeLists.txt"
+  "../thread/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -95,6 +96,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "memoryManager/CMakeFiles/CMakeDirectoryInformation.cmake"
   "memoryManager/smartPtr/CMakeFiles/CMakeDirectoryInformation.cmake"
   "memoryManager/memoryPool/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "thread/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -115,4 +117,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Sort_/CMakeFiles/testqsort.dir/DependInfo.cmake"
   "memoryManager/smartPtr/CMakeFiles/testscopedPtr.dir/DependInfo.cmake"
   "memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/DependInfo.cmake"
+  "thread/CMakeFiles/demo.dir/DependInfo.cmake"
   )

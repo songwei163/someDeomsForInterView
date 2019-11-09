@@ -62,3 +62,6 @@ C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/memoryManager/s
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/memoryManager/memoryPool/CMakeFiles/edit_cache.dir
 C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/memoryManager/memoryPool/CMakeFiles/rebuild_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/CMakeFiles/demo.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/CMakeFiles/edit_cache.dir
+C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/CMakeFiles/rebuild_cache.dir

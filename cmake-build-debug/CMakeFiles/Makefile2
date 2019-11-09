@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-de
 all: dataStucture/all
 all: Sort_/all
 all: memoryManager/all
+all: thread/all
 
 .PHONY : all
 
@@ -62,6 +63,7 @@ all: memoryManager/all
 clean: dataStucture/clean
 clean: Sort_/clean
 clean: memoryManager/clean
+clean: thread/clean
 
 .PHONY : clean
 
@@ -69,6 +71,7 @@ clean: memoryManager/clean
 preinstall: dataStucture/preinstall
 preinstall: Sort_/preinstall
 preinstall: memoryManager/preinstall
+preinstall: thread/preinstall
 
 .PHONY : preinstall
 
@@ -160,7 +163,7 @@ dataStucture/LinerList/SeqList/preinstall:
 dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\SeqList\CMakeFiles\testSeqList.dir\build.make dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\SeqList\CMakeFiles\testSeqList.dir\build.make dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target testSeqList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target testSeqList"
 .PHONY : dataStucture/LinerList/SeqList/CMakeFiles/testSeqList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -205,7 +208,7 @@ dataStucture/LinerList/LinkedList/preinstall:
 dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\LinkedList\CMakeFiles\testLinkedList.dir\build.make dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\LinkedList\CMakeFiles\testLinkedList.dir\build.make dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target testLinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target testLinkedList"
 .PHONY : dataStucture/LinerList/LinkedList/CMakeFiles/testLinkedList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -250,7 +253,7 @@ dataStucture/LinerList/StaticList/preinstall:
 dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\StaticList\CMakeFiles\testStaticList.dir\build.make dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\StaticList\CMakeFiles\testStaticList.dir\build.make dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target testStaticList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target testStaticList"
 .PHONY : dataStucture/LinerList/StaticList/CMakeFiles/testStaticList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,7 +298,7 @@ dataStucture/LinerList/CircList/preinstall:
 dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\CircList\CMakeFiles\testCircList.dir\build.make dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\CircList\CMakeFiles\testCircList.dir\build.make dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target testCircList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target testCircList"
 .PHONY : dataStucture/LinerList/CircList/CMakeFiles/testCircList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -340,7 +343,7 @@ dataStucture/LinerList/DblList/preinstall:
 dataStucture/LinerList/DblList/CMakeFiles/testDblList.dir/all:
 	$(MAKE) -f dataStucture\LinerList\DblList\CMakeFiles\testDblList.dir\build.make dataStucture/LinerList/DblList/CMakeFiles/testDblList.dir/depend
 	$(MAKE) -f dataStucture\LinerList\DblList\CMakeFiles\testDblList.dir\build.make dataStucture/LinerList/DblList/CMakeFiles/testDblList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target testDblList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target testDblList"
 .PHONY : dataStucture/LinerList/DblList/CMakeFiles/testDblList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -406,7 +409,7 @@ dataStucture/Stack/SeqStack/preinstall:
 dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/all:
 	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/depend
 	$(MAKE) -f dataStucture\Stack\SeqStack\CMakeFiles\testSeqStack.dir\build.make dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target testSeqStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target testSeqStack"
 .PHONY : dataStucture/Stack/SeqStack/CMakeFiles/testSeqStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -451,7 +454,7 @@ dataStucture/Stack/LinkedStack/preinstall:
 dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/all:
 	$(MAKE) -f dataStucture\Stack\LinkedStack\CMakeFiles\testLinkedStack.dir\build.make dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/depend
 	$(MAKE) -f dataStucture\Stack\LinkedStack\CMakeFiles\testLinkedStack.dir\build.make dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target testLinkedStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target testLinkedStack"
 .PHONY : dataStucture/Stack/LinkedStack/CMakeFiles/testLinkedStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -514,7 +517,7 @@ dataStucture/Queue/SeqQueue/preinstall:
 dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/all:
 	$(MAKE) -f dataStucture\Queue\SeqQueue\CMakeFiles\testSeqQueue.dir\build.make dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/depend
 	$(MAKE) -f dataStucture\Queue\SeqQueue\CMakeFiles\testSeqQueue.dir\build.make dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target testSeqQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target testSeqQueue"
 .PHONY : dataStucture/Queue/SeqQueue/CMakeFiles/testSeqQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -577,7 +580,7 @@ dataStucture/Tree/BinaryTree/preinstall:
 dataStucture/Tree/BinaryTree/CMakeFiles/testBinaryTree.dir/all:
 	$(MAKE) -f dataStucture\Tree\BinaryTree\CMakeFiles\testBinaryTree.dir\build.make dataStucture/Tree/BinaryTree/CMakeFiles/testBinaryTree.dir/depend
 	$(MAKE) -f dataStucture\Tree\BinaryTree\CMakeFiles\testBinaryTree.dir\build.make dataStucture/Tree/BinaryTree/CMakeFiles/testBinaryTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target testBinaryTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target testBinaryTree"
 .PHONY : dataStucture/Tree/BinaryTree/CMakeFiles/testBinaryTree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -640,7 +643,7 @@ dataStucture/Set/BitSet/preinstall:
 dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/all:
 	$(MAKE) -f dataStucture\Set\BitSet\CMakeFiles\testBitSet.dir\build.make dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/depend
 	$(MAKE) -f dataStucture\Set\BitSet\CMakeFiles\testBitSet.dir\build.make dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target testBitSet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target testBitSet"
 .PHONY : dataStucture/Set/BitSet/CMakeFiles/testBitSet.dir/all
 
 # Build rule for subdir invocation for target.
@@ -706,7 +709,7 @@ dataStucture/Sort/dataList/preinstall:
 dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/all:
 	$(MAKE) -f dataStucture\Sort\dataList\CMakeFiles\testdataList.dir\build.make dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/depend
 	$(MAKE) -f dataStucture\Sort\dataList\CMakeFiles\testdataList.dir\build.make dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target testdataList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target testdataList"
 .PHONY : dataStucture/Sort/dataList/CMakeFiles/testdataList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -751,7 +754,7 @@ dataStucture/Sort/MySort/preinstall:
 dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/all:
 	$(MAKE) -f dataStucture\Sort\MySort\CMakeFiles\testMySort.dir\build.make dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/depend
 	$(MAKE) -f dataStucture\Sort\MySort\CMakeFiles\testMySort.dir\build.make dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target testMySort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target testMySort"
 .PHONY : dataStucture/Sort/MySort/CMakeFiles/testMySort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -798,7 +801,7 @@ Sort_/preinstall:
 Sort_/CMakeFiles/testSortDemo.dir/all:
 	$(MAKE) -f Sort_\CMakeFiles\testSortDemo.dir\build.make Sort_/CMakeFiles/testSortDemo.dir/depend
 	$(MAKE) -f Sort_\CMakeFiles\testSortDemo.dir\build.make Sort_/CMakeFiles/testSortDemo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target testSortDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target testSortDemo"
 .PHONY : Sort_/CMakeFiles/testSortDemo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -825,12 +828,12 @@ Sort_/CMakeFiles/testSortDemo.dir/clean:
 Sort_/CMakeFiles/testqsort.dir/all:
 	$(MAKE) -f Sort_\CMakeFiles\testqsort.dir\build.make Sort_/CMakeFiles/testqsort.dir/depend
 	$(MAKE) -f Sort_\CMakeFiles\testqsort.dir\build.make Sort_/CMakeFiles/testqsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target testqsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=31,32,33 "Built target testqsort"
 .PHONY : Sort_/CMakeFiles/testqsort.dir/all
 
 # Build rule for subdir invocation for target.
 Sort_/CMakeFiles/testqsort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 Sort_/CMakeFiles/testqsort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 0
 .PHONY : Sort_/CMakeFiles/testqsort.dir/rule
@@ -891,7 +894,7 @@ memoryManager/smartPtr/preinstall:
 memoryManager/smartPtr/CMakeFiles/testscopedPtr.dir/all:
 	$(MAKE) -f memoryManager\smartPtr\CMakeFiles\testscopedPtr.dir\build.make memoryManager/smartPtr/CMakeFiles/testscopedPtr.dir/depend
 	$(MAKE) -f memoryManager\smartPtr\CMakeFiles\testscopedPtr.dir\build.make memoryManager/smartPtr/CMakeFiles/testscopedPtr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target testscopedPtr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target testscopedPtr"
 .PHONY : memoryManager/smartPtr/CMakeFiles/testscopedPtr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -936,7 +939,7 @@ memoryManager/memoryPool/preinstall:
 memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/all:
 	$(MAKE) -f memoryManager\memoryPool\CMakeFiles\testmemoryPool.dir\build.make memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/depend
 	$(MAKE) -f memoryManager\memoryPool\CMakeFiles\testmemoryPool.dir\build.make memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target testmemoryPool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target testmemoryPool"
 .PHONY : memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/all
 
 # Build rule for subdir invocation for target.
@@ -955,6 +958,51 @@ testmemoryPool: memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/rule
 memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/clean:
 	$(MAKE) -f memoryManager\memoryPool\CMakeFiles\testmemoryPool.dir\build.make memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/clean
 .PHONY : memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/clean
+
+#=============================================================================
+# Directory level rules for directory thread
+
+# Recursive "all" directory target.
+thread/all: thread/CMakeFiles/demo.dir/all
+
+.PHONY : thread/all
+
+# Recursive "clean" directory target.
+thread/clean: thread/CMakeFiles/demo.dir/clean
+
+.PHONY : thread/clean
+
+# Recursive "preinstall" directory target.
+thread/preinstall:
+
+.PHONY : thread/preinstall
+
+#=============================================================================
+# Target rules for target thread/CMakeFiles/demo.dir
+
+# All Build rule for target.
+thread/CMakeFiles/demo.dir/all:
+	$(MAKE) -f thread\CMakeFiles\demo.dir\build.make thread/CMakeFiles/demo.dir/depend
+	$(MAKE) -f thread\CMakeFiles\demo.dir\build.make thread/CMakeFiles/demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target demo"
+.PHONY : thread/CMakeFiles/demo.dir/all
+
+# Build rule for subdir invocation for target.
+thread/CMakeFiles/demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 thread/CMakeFiles/demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\S\CLionProjects\someDeomsForInterView\cmake-build-debug\CMakeFiles 0
+.PHONY : thread/CMakeFiles/demo.dir/rule
+
+# Convenience name for target.
+demo: thread/CMakeFiles/demo.dir/rule
+
+.PHONY : demo
+
+# clean rule for target.
+thread/CMakeFiles/demo.dir/clean:
+	$(MAKE) -f thread\CMakeFiles\demo.dir\build.make thread/CMakeFiles/demo.dir/clean
+.PHONY : thread/CMakeFiles/demo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

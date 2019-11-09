@@ -5,7 +5,7 @@
 		<Option title="someDeomsForInterView"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\dataStucture\;CMake Files\dataStucture\LinerList\;CMake Files\dataStucture\LinerList\SeqList\;CMake Files\dataStucture\LinerList\LinkedList\;CMake Files\dataStucture\LinerList\StaticList\;CMake Files\dataStucture\LinerList\CircList\;CMake Files\dataStucture\LinerList\DblList\;CMake Files\dataStucture\Stack\;CMake Files\dataStucture\Stack\SeqStack\;CMake Files\dataStucture\Stack\LinkedStack\;CMake Files\dataStucture\Queue\;CMake Files\dataStucture\Queue\SeqQueue\;CMake Files\dataStucture\Tree\;CMake Files\dataStucture\Tree\BinaryTree\;CMake Files\dataStucture\Set\;CMake Files\dataStucture\Set\BitSet\;CMake Files\dataStucture\Sort\;CMake Files\dataStucture\Sort\dataList\;CMake Files\dataStucture\Sort\MySort\;CMake Files\Sort_\;CMake Files\memoryManager\;CMake Files\memoryManager\smartPtr\;CMake Files\memoryManager\memoryPool\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dataStucture\;CMake Files\dataStucture\LinerList\;CMake Files\dataStucture\LinerList\SeqList\;CMake Files\dataStucture\LinerList\LinkedList\;CMake Files\dataStucture\LinerList\StaticList\;CMake Files\dataStucture\LinerList\CircList\;CMake Files\dataStucture\LinerList\DblList\;CMake Files\dataStucture\Stack\;CMake Files\dataStucture\Stack\SeqStack\;CMake Files\dataStucture\Stack\LinkedStack\;CMake Files\dataStucture\Queue\;CMake Files\dataStucture\Queue\SeqQueue\;CMake Files\dataStucture\Tree\;CMake Files\dataStucture\Tree\BinaryTree\;CMake Files\dataStucture\Set\;CMake Files\dataStucture\Set\BitSet\;CMake Files\dataStucture\Sort\;CMake Files\dataStucture\Sort\dataList\;CMake Files\dataStucture\Sort\MySort\;CMake Files\Sort_\;CMake Files\memoryManager\;CMake Files\memoryManager\smartPtr\;CMake Files\memoryManager\memoryPool\;CMake Files\thread\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug"/>
@@ -709,6 +709,48 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/memoryManager/memoryPool/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="demo">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/S/CLionProjects/someDeomsForInterView/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/Sort_/testSortDemo.cpp">
 			<Option target="testSortDemo"/>
@@ -794,6 +836,10 @@
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/memoryManager/smartPtr/testscopedPtr.cpp">
 			<Option target="testscopedPtr"/>
 		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/thread/demo.cpp">
+			<Option target="testqsort"/>
+			<Option target="demo"/>
+		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -865,6 +911,9 @@
 		</Unit>
 		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/memoryManager/memoryPool/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\memoryManager\memoryPool\"/>
+		</Unit>
+		<Unit filename="C:/Users/S/CLionProjects/someDeomsForInterView/thread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thread\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

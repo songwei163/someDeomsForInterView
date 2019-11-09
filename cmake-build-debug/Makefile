@@ -317,6 +317,19 @@ testmemoryPool/fast:
 	$(MAKE) -f memoryManager\memoryPool\CMakeFiles\testmemoryPool.dir\build.make memoryManager/memoryPool/CMakeFiles/testmemoryPool.dir/build
 .PHONY : testmemoryPool/fast
 
+#=============================================================================
+# Target rules for targets named demo
+
+# Build rule for target.
+demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 demo
+.PHONY : demo
+
+# fast build rule for target.
+demo/fast:
+	$(MAKE) -f thread\CMakeFiles\demo.dir\build.make thread/CMakeFiles/demo.dir/build
+.PHONY : demo/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -341,6 +354,7 @@ help:
 	@echo ... testqsort
 	@echo ... testscopedPtr
 	@echo ... testmemoryPool
+	@echo ... demo
 .PHONY : help
 
 
